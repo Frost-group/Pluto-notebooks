@@ -14,9 +14,8 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Install gnuplot
-              run: |
-                  sudo apt-get update\
-                  sudo apt-get install -y gnuplot #Party like it's 1982 !
+              run: sudo apt-get update && sudo apt-get install -y gnuplot 
+              #Party like it's 1982 !
 
             - name: Install Julia
               uses: julia-actions/setup-julia@v1
