@@ -3,6 +3,8 @@
 These Pluto notebooks are automatically executed using a GitHub action and
 deployed to a Github pages website.
 
+https://frost-group.github.io/Pluto-notebooks/
+
 # How to use the template
 
 ### 👉 Adding notebooks 
